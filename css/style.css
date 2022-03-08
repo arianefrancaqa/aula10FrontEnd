@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.bar-discount {
+  background-color: #1cd1b0;
+  position: absolute;
+  width: 3000px;
+  height: 38px;
+  left: 0px;
+  top: 0px;
+  display: inline;
+}
+
+.discount-text {
+  color: #000000;
+  position: absolute;
+  width: 124px;
+  left: 10px;
+  top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.bar-superHeroes {
+  position: absolute;
+  width: 3000px;
+  height: 101px;
+  left: 0px;
+  top: 38px;
+  background: #00669f;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  border: 28px;
+}
+
+.superHeroes-text {
+  width: 224px;
+  height: 47px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: right;
+  margin-top: 28px;
+  margin-left: 28px;
+  color: #000000;
+}
+
+.batmanBackgroundCardBox {
+  position: absolute;
+  width: 374px;
+  height: 217.81px;
+  left: 112px;
+  top: 225.11px;
+  background-image: url("../img/batmanBackgroundCard.png");
+  border-radius: 16px 16px 0px 0px;
+}
+
+.heartIcon {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 6.25%;
+  bottom: 6.25%;
+  margin-left: 23.7px;
+  margin-top: 17.92px;
+}
+
+.batmanProfileImg {
+  position: absolute;
+  width: 135.43px;
+  height: 133.17px;
+  left: 231.57px;
+  top: 369.57px;
+  background-image: url("../img/batmanProfile.png");
+  border-radius: 50%;
+}
+
+.batmanDescriptionBox {
+  width: 374px;
+  height: 379.2px;
+  left: 112px;
+  top: 441.8px;
+  background: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 441.8px;
+  margin-left: 112px;
+}
+
+.batmanCardHeader {
+  position: absolute;
+  width: 137.69px;
+  height: 39.5px;
+  left: 230.44px;
+  top: 525.31px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #000000;
+  margin-left: 15px;
+}
+
+.batmanDescriptionText {
+  position: absolute;
+  width: 301.33px;
+  height: 127.53px;
+  left: 148px;
+  top: 594.1px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #333333;
+}
+
+.batmanButtonBox {
+  position: absolute;
+  width: 145.34px;
+  height: 54.76px;
+  left: 225.93px;
+  top: 745.39px;
+  background: #00669f;
+}
+
+.batmanButtonText {
+  position: absolute;
+  width: 63.2px;
+  height: 20.31px;
+  margin-left: 41.76px;
+  margin-top: 16.93px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  display: block;
+  color: #f3f3f3;
+}
+
+.arlequinaBackgroundCardBox {
+  position: absolute;
+  width: 373.57px;
+  height: 217.81px;
+
+
+
+left: 572.43px;
+top: 225.11px;
+
+  background-image: url("../img/arlequinaBackground.png");
+  border-radius: 16px 16px 0px 0px;
+}
+
+.arlequinaProfileImg {
+  position: absolute;
+  width: 135.43px;
+  height: 133.17px;
+  left: 231.57px;
+  top: 369.57px;
+  background-image: url("../img/arlequinaProfile.png");
+  border-radius: 50%;
+}
+
+.arlequinaDescriptionBox {
+  width: 374px;
+  height: 379.2px;
+  left: 112px;
+  top: 441.8px;
+  background: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 441.8px;
+  margin-left: 112px;
+}
+
+.arlequinaCardHeader {
+  position: absolute;
+  width: 137.69px;
+  height: 39.5px;
+  left: 230.44px;
+  top: 525.31px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  color: #000000;
+  margin-left: 15px;
+}
+
+.arlequinaDescriptionText {
+  position: absolute;
+  width: 301.33px;
+  height: 127.53px;
+  left: 148px;
+  top: 594.1px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #333333;
+}
+
+.arlequinaButtonBox {
+  position: absolute;
+  width: 145.34px;
+  height: 54.76px;
+  left: 225.93px;
+  top: 745.39px;
+  background: #00669f;
+}
+
+.arlequinaButtonText {
+  position: absolute;
+  width: 63.2px;
+  height: 20.31px;
+  margin-left: 41.76px;
+  margin-top: 16.93px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  display: block;
+  color: #f3f3f3;
+}
+
+.footerBox {
+  position: absolute;
+  width: 3000px;
+  height: 51px;
+  left: 0px;
+  top: 855px;
+  background: #00669f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footerText {
+  position: absolute;
+  width: 299px;
+  height: 19px;
+  margin-left: 28px;
+  margin-top: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #fff9f9;
+  display: inline;
+}
