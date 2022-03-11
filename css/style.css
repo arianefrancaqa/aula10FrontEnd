@@ -158,61 +158,54 @@
   position: absolute;
   width: 373.57px;
   height: 217.81px;
-
-
-
-left: 572.43px;
-top: 225.11px;
-
+  left: 572.43px;
+  top: 225.11px;
   background-image: url("../img/arlequinaBackground.png");
   border-radius: 16px 16px 0px 0px;
 }
 
 .arlequinaProfileImg {
   position: absolute;
-  width: 135.43px;
-  height: 133.17px;
-  left: 231.57px;
-  top: 369.57px;
+  width: 137.69px;
+  height: 137.69px;
+  left: 698.87px;
+  top: 367.31px;
+
   background-image: url("../img/arlequinaProfile.png");
   border-radius: 50%;
 }
 
 .arlequinaDescriptionBox {
+  position: absolute;
   width: 374px;
-  height: 379.2px;
-  left: 112px;
-  top: 441.8px;
+  height: 379px;
+  left: 572px;
+  top: 442px;
+
   background: #f3f3f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-top: 441.8px;
-  margin-left: 112px;
 }
 
 .arlequinaCardHeader {
   position: absolute;
   width: 137.69px;
   height: 39.5px;
-  left: 230.44px;
-  top: 525.31px;
+  margin: 130px;
+  margin-top: 83.31px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
   line-height: 35px;
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
   color: #000000;
-  margin-left: 15px;
 }
 
 .arlequinaDescriptionText {
   position: absolute;
   width: 301.33px;
   height: 127.53px;
-  left: 148px;
-  top: 594.1px;
+  margin-left: 44.49px;
+  margin-top: 152.1px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -226,7 +219,7 @@ top: 225.11px;
   position: absolute;
   width: 145.34px;
   height: 54.76px;
-  left: 225.93px;
+  left: 694.36px;
   top: 745.39px;
   background: #00669f;
 }
@@ -252,15 +245,16 @@ top: 225.11px;
   position: absolute;
   width: 3000px;
   height: 51px;
-  left: 0px;
-  top: 855px;
   background: #00669f;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: inline;
+  left: 0px;
+  top: 972px;
 }
 
 .footerText {
   position: absolute;
-  width: 299px;
+  width: 400px;
   height: 19px;
   margin-left: 28px;
   margin-top: 16px;
